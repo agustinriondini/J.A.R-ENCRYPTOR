@@ -1,0 +1,54 @@
+=====================================================================================
+======= J.A.R CHANGELOG TXT==========================================================
+=============================================================J.A.R ENCRYPTOR RC1 ====
+=====================================================================================
+=======COPYRIGHT RESERVED TO DEVELOPER @2022 === ALURA CHALLENGE O.N.E ==============
+======================================================================================
+
+11/05/2022
+==========
+-version 1.0 descontinuada.
+-nueva version inicial J.A.R Encryptor
+(Resources files: Images, Theme, index.html release, Theme.css release).
+-index.html (logo, cuadros de texto, y botones añadidos).
+
+12/05/2022
+==========
+-agregado en el footer "developer" y redes sociales.
+-iconos agregados con links a perfiles linkedin y github.
+-leyenda developer agregada.
+
+13/05/2022
+==========
+-version inicial code.js en /Resources/Code/.
+-version incial de changelog.html.
+-agregado menu desplegable para seleccionar metodo de encriptacion.
+
+14/05/2022
+==========
+-agregado metodo alternativo de encriptacion (J.A.R Method BettaRC)
+-agregado el boton de copiar/peagar en index.html.
+-agregado boton de "volver" en changelog.html.
+
+15/05/2022
+==========
+-rollback changes en metodo elternatvo de encriptacion (j.A.R Method BettaRC)//A revisar codigo
+-eliminada entrada en index.html para selector de encriptacion.
+-rollback en la edicion de changelog.htm. Reemplazada por changelog.txt
+
+16/05/2022
+==========
+
+-correccion de errores en code.js (version final del modo de encriptacion Alura Challenge).
+-correccion de errores en index.html
+-agregada la entrada por link al changelog en index.html
+-correccion de errores en Theme.css (todos las clases tienen estilo)
+-correccion de ubicacion de los textarea de index.html (ahora estan centrados)
+
+21/05/2022
+==========
+
+-copy button removed. (ahora los cuadros de texto funcionan de manera bidireccional)
+-copy button script removed (ya no es necesario copiar y pegar para encriptar y desencriptar)
+-correoccion de visualizaciones en emailpage.css
+-correccion del boton homepage en email.html

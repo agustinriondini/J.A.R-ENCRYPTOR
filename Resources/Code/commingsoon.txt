@@ -1,0 +1,14 @@
+=====================================================================================
+======= J.A.R COMMING SOON TXT=======================================================
+=============================================================J.A.R ENCRYPTOR RC1 ====
+=====================================================================================
+=======COPYRIGHT RESERVED TO DEVELOPER @2022 === ALURA CHALLENGE O.N.E ==============
+=====================================================================================
+
+-agregar un nuevo metodo de encriptado, el cual puede ser seleccionado previamente a presionar
+el boton de encriptado.
+
+-agregar un checkbox para aceptar terminos y condiciones de uso del servicio, los cuales deben
+ser aceptados para desbloquear los botones con funciones
+
+-finalizar el desarrollo del area de contacto por email.
