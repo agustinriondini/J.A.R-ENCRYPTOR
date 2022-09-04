@@ -33,13 +33,15 @@ DESARROLLO:
         
         Correccion de errores.
         
-        Eliminacion de la entrada changelo.txt
+        Eliminacion de la entrada changelog.txt
         
       CSS:
       
         Theme.css_J.A.R-Encryptor_RC-1.ver: Eliminado
         
         Theme.CSS de la version 1.2 cuenta con diseño responsive
+        
+        reset.css agregado para mejorar la adaptacion de Theme.css
        
       CONTENIDO ELIMINADO:
       
