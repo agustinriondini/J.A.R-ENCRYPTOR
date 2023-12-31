@@ -2,6 +2,16 @@
     background-image: url(../Images/Mt.\ Fuji.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
+    min-width: 300px;
+    max-width: 1024px;
+    height: auto;
+    min-height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .fix_container{
     width: 100%;
