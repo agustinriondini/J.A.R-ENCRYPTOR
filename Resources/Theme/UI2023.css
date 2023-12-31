@@ -2,6 +2,7 @@
     background-image: url(../Images/Mt.\ Fuji.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
     width: 100vw;
     min-width: 300px;
     height: auto;
@@ -51,6 +52,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
+    min-width: 60px;
+    max-width: 120px;
+    height: auto;
+    min-height: 30px;
+    max-height: 60px;
+    border: solid 0.1rem white;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+.msga>a:hover{
+    background-color: rgba(255, 255, 255, 1);
+    transition: ease-in-out 1s;
 }
 .advertise{
     text-decoration: none;
