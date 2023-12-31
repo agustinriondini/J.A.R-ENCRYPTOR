@@ -1,0 +1,211 @@
+.program_container{
+    background-image: url(../Images/Mt.\ Fuji.jpg);
+}
+.fix_container{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 300px;
+    aspect-ratio: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.300);
+}
+/*Centro de notificaciones y mensajes*/
+.msg_container{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(4, 4, 4, 0.700);
+}
+.msg{
+    color: white;
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.msg>a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advertise{
+    text-decoration: none;
+    color: white;
+}
+.advertise:hover{
+    color: yellowgreen;
+    transition:ease-in-out 1s;
+}
+/*------------------------------------------*/
+/*banner*/
+.banner_cotainer{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 10%;
+    min-height: 50px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.logo_img{
+    width: 2rem;
+    min-width: 32px;
+    aspect-ratio: 2/2;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bolder;
+}
+/*conversor*/
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content_container{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 50%;
+    min-height: 300px;
+    max-height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.inputtext{
+    width: 45%;
+    min-width: 300px;
+    max-width: 450px;
+    height: 50%;
+    min-height: 300px;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.outputtext{
+    width: 45%;
+    min-width: 300px;
+    max-width: 450px;
+    height: 50%;
+    min-height: 300px;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/*Alert!*/
+.alert{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 10%;
+    min-height: 50px;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.alert_title{
+    font-size: 0.9rem;
+    color: white;
+}
+.alert_pic{
+    width: 2rem;
+    min-width: 32px;
+    max-width: 64px;
+    aspect-ratio: 2/2;
+    border: solid 0.1rem red;
+    background-color: red;
+    border-radius: 100%;
+}
+/*Developer*/
+.developer{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(4, 4, 4, 0.700);
+}
+.limits_container{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.developer_container{
+    width: 50%;
+    min-width: 300px;
+    max-width: 450px;
+    height: auto;
+    min-height: 50px;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.developer_container>a>img{
+    width: 100%;
+    min-width: 50px;
+    max-width: 70px;
+    aspect-ratio: 2/2;
+}
+
+.developer_rights{
+    width: 50%;
+    min-width: 300px;
+    max-width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50px;
+    gap: 5px;
+}
+.dev{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
