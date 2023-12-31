@@ -1,12 +1,14 @@
 .program_container{
     background-image: url(../Images/Mt.\ Fuji.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .fix_container{
     width: 100%;
     min-width: 300px;
     max-width: 1000px;
     height: auto;
-    min-height: 300px;
+    min-height: fit-content;
     aspect-ratio: 1/2;
     display: flex;
     justify-content: center;
@@ -56,11 +58,11 @@
     width: 100%;
     min-width: 300px;
     max-width: 1000px;
-    height: 10%;
+    height: auto;
     min-height: 50px;
     max-height: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: auto;
     flex-wrap: wrap;
@@ -72,6 +74,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    border: solid 0.1rem black;
     border-radius: 100%;
 }
 .title{
@@ -82,6 +85,9 @@
 }
 /*conversor*/
 .main_section{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +97,7 @@
     width: 100%;
     min-width: 300px;
     max-width: 1000px;
-    height: 50%;
+    height: auto;
     min-height: 300px;
     max-height: 400px;
     display: flex;
@@ -111,6 +117,9 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    border: solid 0.15rem black;
+    background-color: transparent;
+    color: white;
 }
 .outputtext{
     width: 45%;
@@ -123,6 +132,9 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    border: solid 0.15rem black;
+    background-color: transparent;
+    color: white;
 }
 /*Alert!*/
 .alert{
@@ -134,6 +146,7 @@
     max-height: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .alert_title{
     font-size: 0.9rem;
