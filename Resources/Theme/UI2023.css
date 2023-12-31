@@ -146,6 +146,9 @@
     border-radius: 12.5px;
     border: solid 0.1rem rgba(4, 4, 4, 0.700);
 }
+.inputtext:focus{
+    background-color: rgba(255, 255, 255, 0.300);
+}
 .outputtext{
     width: 45%;
     min-width: 300px;
@@ -166,6 +169,10 @@
     border-radius: 12.5px;
     border: solid 0.1rem rgba(4, 4, 4, 0.700);
 }
+.outputtext:focus{
+    background-color: rgba(255, 255, 255, 0.300);
+}
+
 /*Alert!*/
 .alert{
     width: 100%;
@@ -190,6 +197,35 @@
     border: solid 0.1rem red;
     background-color: red;
     border-radius: 100%;
+}
+/*Botones*/
+.buttons_container{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 50px;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.button{
+    width: 30%;
+    min-width: 100px;
+    max-width: 140px;
+    height: auto;
+    min-height: 33px;
+    max-height: 46px;
+    display: flexbox;
+    cursor: pointer;
+    background-color: rgba(4, 4, 4, 0.700);
+    color: white;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.300);
+    transition: ease-in-out 1s;
 }
 /*Developer*/
 .developer{
