@@ -41,3 +41,6 @@ Build #9
 -Nuevo boton de 'Copiar' en index.html (permite copiar al portapapeles el contenido visible)
 -Nueva funcion en kernel.js que permite el funcionamiento del boton de copiar
 -Actualizacion del changelog
+
+#Build 11
+-Correcciones de la build 10
