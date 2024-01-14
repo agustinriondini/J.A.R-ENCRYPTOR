@@ -28,3 +28,16 @@ Build #9
 -Se elimino UI2023.css descontinuado
 -Se eliminaron iconos no utilizados
 -Se elimino Mt. Fuji.jpg no utilizado
+
+==================================================
+****     Version      2.0.1      14/01/2024   ****
+--------------------------------------------------
+#Build 10
+*Update v2.0.1*
+
+-Eliminacion de directorio inncesario /images/Ver2.0/iconos
+-Reutilizacion de iconos
+-Cambios menores de visualizacion y nuevos atributos en root.css / algoSelect.css / cmdCenter.css
+-Nuevo boton de 'Copiar' en index.html (permite copiar al portapapeles el contenido visible)
+-Nueva funcion en kernel.js que permite el funcionamiento del boton de copiar
+-Actualizacion del changelog

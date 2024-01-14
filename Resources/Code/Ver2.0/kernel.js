@@ -23,3 +23,16 @@ function runProgram() {
     // Alternar la clase para aplicar la rotación
     textContainer.classList.toggle('encripted');
 }
+function copyText() {
+    var outputText = document.getElementById('outputText');
+    outputText.select();
+    outputText.setSelectionRange(0, 99999);
+    var toClipboard = document.getElementById('toClipboard');
+
+    document.execCommand('copy');
+    toClipboard.textContent = '¡Copiado!';
+
+    setTimeout (function(){
+        toClipboard.textContent = 'Copiar';
+        }, 2000);
+}

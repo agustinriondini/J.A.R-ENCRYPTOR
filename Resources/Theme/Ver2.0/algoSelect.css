@@ -33,7 +33,7 @@
     text-align: center;
     cursor: pointer;
 }
-#run_btn{
+.run_btn{
     margin: auto;
     width: auto;
     min-width: 100px;
@@ -50,7 +50,7 @@
     border-radius: 12.5px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-#run_btn:hover{
+.run_btn:hover{
     background-color: rgba(183, 56, 242, 0.8);
     box-shadow: 0 0 10px violet;
 }
