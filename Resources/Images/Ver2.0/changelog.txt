@@ -1,0 +1,30 @@
+Año 2022/2023
+
+****Version  1.2 descontinuada                ****
+--------------------------------------------------
+==================================================
+****Version  2.0 relanzamiento   14/01/2024   ****
+--------------------------------------------------
+Build #9
+
+-index.html relanzado desde cero
+-Cargados archivos correspondientes a la Version 2.0
+    *Code:
+        -Selector de algoritmo de encriptacion 'algoSelect.js'
+        -Algoritmo darks.js
+        -Algoritmo winkers.js
+        -Programa principal y algoritmo por defecto 'Alura' en Kernel.js
+    *Images:
+        -Se agrego un background image
+        -Se agregaron los iconos nuevamente
+    *Theme:
+        **Se crearon los estilos por separado para conservar legibilidad**
+            -Se agrego algoSelect.css
+            -Se agrego cmdCenter.css
+            -Se agrego footer.css
+            -Se agrego main.css
+            -Se agrego root.css
+-Se creo el archivo changelog para registrar los cambios en .txt
+-Se elimino UI2023.css descontinuado
+-Se eliminaron iconos no utilizados
+-Se elimino Mt. Fuji.jpg no utilizado

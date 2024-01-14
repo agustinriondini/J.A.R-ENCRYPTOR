@@ -1,65 +1,60 @@
 <!DOCTYPE html>
-
 <html lang="es-AR">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta http-equiv="X-UA-Compatible" content="IE=7">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Encriptador de texto, JARSoft Encryptor">
-        <meta name="keywords" content="Encriptador, textos, jarsoft">
-        <!--Diseños-->
-        <link rel="stylesheet" type="text/css" href="./Resources/Theme/reset.css">
-        <link rel="stylesheet" type="text/css" href="./Resources/Theme/UI2023.css">
-
-        <title>JARSoft Encryptor</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="JARSoft Encryptor v2.0">
+        <!--UI-->
+        <link rel="stylesheet" href="./Resources/Theme/reset.css">
+        <link rel="stylesheet" href="./Resources/Theme/Ver2.0/root.css">
+        <link rel="stylesheet" href="./Resources/Theme/Ver2.0/cmdCenter.css">
+        <link rel="stylesheet" href="./Resources/Theme/Ver2.0/algoSelect.css">
+        <link rel="stylesheet" href="./Resources/Theme/Ver2.0/main.css">
+        <link rel="stylesheet" href="./Resources/Theme/Ver2.0/footer.css">
+        <!--Function-->
+        <script src="./Resources/Code/Ver2.0/algoSelect.js"></script>
     </head>
-    <body class="program_container">
-        <div class="fix_container"><!--parche-->
-            <!--Notificaciones-->
-            <div class="msg_container">
-                <h4 class="msg">Encriptador de texto. Apoya el desarrollo<a href="https://link.mercadopago.com.ar/jarsoftproject" class="btn_style_a">Donar</a></h4>
-                <a href="index-old.html" class="advertise">Usar version anterior v1.2</a>
-            </div>
-        <!--Presentacion del programa-->
-            <div class="banner_cotainer">
-                <img class="logo_img" src="./Resources/Images/Logo.png">
-                <h1 class="title">JARSoft Encryptor v1.3</h1>
-            </div>
-
-            <section class="main_section">
-                <div class="content_container">
-                    <textarea class="inputtext" type="text" name="inputtext" id="inputtext" placeholder="Ingresar el texto aqui.. TEXTO SIN ENCRIPTAR"></textarea>
-                    <textarea class="outputtext" type="text" id="outputtexxt" placeholder="TEXTO ENCRIPTADO"></textarea>
-                </div>             
-            </section>
-    
-            <div class="alert">
-                <h2 class="alert_title">Estamos actualizando el programa</h2>
-                <img class="alert_pic" src="./Resources/Images/Alert.png">
-            </div>
-
-            <div class="buttons_container">
-                <input class="button" type="button" value="Encriptar" id="buttonencrypt">
-                <input class="button" type="button" value="Desencriptar" id="buttondecrypt">
-            </div>
+    <body class="page">
+        <div class="msg_container">
+            <h4 class="msg">Estas jugando al ahorcado! Apoya el desarrollo<a href="https://link.mercadopago.com.ar/jarsoftproject" class="btn_style_a">Donar</a></h4>
+            <a href="./index-old.html" class="advertise">Jugar a la version anterior v2.2</a>
         </div>
+        <div id="main">
+            <div class="bannerContainer">
+                <img src="" alt="JARSoft_logo" class="jarsoftPic">
+                <h2 class="title">JARSoft Encryptor II</h2>
+            </div>
+            <div id="algoContainer">
+                <h4 class="subtitle">Algoritmo de encriptacion:</h4>
+                <select name="" id="algoSelector" required onchange="changeAlgo()">
+                    <option value="alura_algo">Alura | ONE</option>
+                    <option value="winkers_algo">JARSoft | Winkers</option>
+                    <option value="darks_algo">JARSoft | DarkSails</option>
+                </select>
+            </div>
+            <div id="textContainer">
+                <textarea name="" id="inputText" cols="30" rows="10" placeholder="Escriba su texto y pulse encriptar"></textarea>
+                <textarea name="" id="outputText" cols="30" rows="10" placeholder="Escriba el texto para desencriptar"></textarea>
+            </div>
+            <button id="run_btn" onclick="runProgram()">Encriptar</button>
+        </div>
+    <script src="./Resources/Code/Ver2.0/kernel.js"></script>
     </body>
-        
     <footer class="developer">
         <section class="limits_container">
             <div class="developer_container">
-                <a href="https://www.linkedin.com/in/juan-agustin-riondini-2226a6195/"><img class="one" src="./Resources/Images/icon/linkedin.png"></a>
-                <a href="https://github.com/agustinriondini"><img  class="one" src="./Resources/Images/icon/github.png"></a>
-                <a href="https://www.facebook.com/agustin.riondini.94/"><img class="one" src="./Resources/Images/icon/facebook.png"></a>
-                <a href="https://www.instagram.com/agustinriondini/"><img  class="one" src="./Resources/Images/icon/instagram.png"></a>
+                <a href="https://www.linkedin.com/in/juan-agustin-riondini-2226a6195/"><img class="one" src="./Resources/images/Ver2.0/icon/linkedin.png"></a>
+                <a href="https://github.com/agustinriondini"><img  class="one" src="./Resources/images/Ver2.0/icon/github.png"></a>
+                <a href="https://www.facebook.com/agustin.riondini.94/"><img class="one" src="./Resources/images/Ver2.0/icon/facebook.png"></a>
+                <a href="https://www.instagram.com/agustinriondini/"><img  class="one" src="./Resources/images/Ver2.0/icon/instagram.png"></a>
             </div>
             <div class="developer_rights">
-                <p class="dev">JARSoft | SOFTWARE | 2022-2023</p>
-                <p class="dev">Version 1.3 (Update 31/12/2023)</p>
+                <p class="dev">JARSoft | SOFT | 2022-2023</p>
+                <p class="dev">Version 2.0.0 (Launched 13/01/2024)</p>
                 <p class="dev">Contacto: juan.riondini@gmail.com</p>
             </div>
         </section>
     </footer>
-    <script src="./Resources/Code/code.js"></script>
 </html>

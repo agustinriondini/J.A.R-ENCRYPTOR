@@ -1,0 +1,90 @@
+#main{
+    backdrop-filter: blur(1px);
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 400px;
+    max-height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.bannerContainer{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 30px;
+    max-height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+.jarsoftPic{
+    width: 2rem;
+    min-width: 30px;
+    max-width: 60px;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: auto;    
+}
+#textContainer{
+    background-color: transparent;
+    width: 90%;
+    min-width: 270px;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    perspective: 1000px;
+    transition: transform 0.5s;
+    margin: auto;
+    border-radius: 12.5px;
+}
+#inputText, #outputText{
+    width: 100%;
+    min-width: 270px;
+    max-width: 900px; 
+    height: 100%;
+    min-height: 150px;
+    max-height: 400px;
+    border-radius: 12.5px;
+    backface-visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s;
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(5px);
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-indent: 1rem;
+}
+#outputText{
+    transform: rotateY(180deg);
+    position: absolute;
+}
+.encripted #inputText{
+    transform: rotateY(180deg);
+}
+.encripted #outputText{
+    transform: rotateY(0deg);
+    text-align: left;
+    transform: scaleX(-1);
+}
+.encripted{
+    transform: rotateY(180deg);
+}
