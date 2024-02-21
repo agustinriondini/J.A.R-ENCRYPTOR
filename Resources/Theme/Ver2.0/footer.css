@@ -2,21 +2,21 @@
 .developer{
     width: 100%;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 600px;
     height: auto;
     min-height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgba(4, 4, 4, 0.700);
 }
 .limits_container{
     width: 100%;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 600px;
     height: auto;
     min-height: 100px;
     display: flex;
@@ -26,11 +26,12 @@
     margin: auto;
 }
 .developer_container{
-    width: 50%;
+    width: 45%;
     min-width: 300px;
-    max-width: 450px;
+    max-width: 600px;
     height: auto;
     min-height: 50px;
+    max-height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -38,26 +39,59 @@
 }
 .developer_container>a>img{
     width: 100%;
-    min-width: 30px;
-    max-width: 50px;
+    min-width: 48px;
+    max-width: 72px;
     aspect-ratio: 1/1;
-}
-
-.developer_rights{
-    width: 50%;
-    min-width: 300px;
-    max-width: 450px;
-    height: auto;
-    display: flexbox;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+.developer_container>a>img:hover{
+    filter: opacity(70%);
+}
+.developer_rights{
+    width: 45%;
+    min-width: 300px;
+    max-width: 600px;
+    height: auto;
     min-height: 50px;
-    gap: 5px;
+    max-height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: auto;
 }
 .dev{
     text-align: center;
     color: white;
     font-weight: lighter;
+}
+/*version compilacion*/
+.version{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     margin: auto;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.compilacion{
+    display: flex;
+    margin: auto;
+    height: 100%;
+    font-size: 0.8rem;
+    color: grey;
+}
+.jarsoft{
+    display: flex;
+    margin: auto;
+    font-size: 1rem;
+    color: grey;
+    font-style: italic;
 }

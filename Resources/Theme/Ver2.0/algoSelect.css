@@ -6,17 +6,19 @@
     min-height: 30px;
     max-height: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0.5rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 12.5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(183, 56, 242, 0.5);
     transition: transform 0.5s;
-    border: transparent;
+    border: solid 0.1rem rgba(183, 56, 242, 0.5)
 }
 .subtitle{
     font-size: 1rem;
+    color: #fff;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -24,25 +26,29 @@
     margin: auto;
 }
 #algoSelector{
+    width: 50%;
+    min-width: 100px;
+    max-width: 300px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: auto;
-    border: transparent;
     border-radius: 12.5px;
     text-align: center;
     cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .run_btn{
     margin: auto;
     width: auto;
     min-width: 100px;
-    max-width: 150px;
+    max-width: 170px;
     height: auto;
     min-height: 30px;
     max-height: 60px;
     cursor: pointer;
-    padding: 1%;
     background-color: rgba(183, 56, 242, 0.5);
     color: white;
     font-size: 0.9rem;

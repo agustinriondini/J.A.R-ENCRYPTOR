@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=7">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="description" content="JARSoft Encryptor 2">
+        <meta name="keywords" content="cifrar textos">
         <!--UI-->
         <link rel="stylesheet" href="./Resources/Theme/reset.css">
         <link rel="stylesheet" href="./Resources/Theme/Ver2.0/root.css">
@@ -13,12 +14,18 @@
         <link rel="stylesheet" href="./Resources/Theme/Ver2.0/algoSelect.css">
         <link rel="stylesheet" href="./Resources/Theme/Ver2.0/main.css">
         <link rel="stylesheet" href="./Resources/Theme/Ver2.0/footer.css">
+        <!--Version-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="./Resources/Code/Ver2.0/version.js"></script>
         <!--Function-->
         <script src="./Resources/Code/Ver2.0/algoSelect.js"></script>
+        <title>JARSoft ENCRYPTOR II</title>
     </head>
     <body class="page">
         <div class="msg_container">
-            <h4 class="msg">Estas jugando al ahorcado! Apoya el desarrollo<a href="https://link.mercadopago.com.ar/jarsoftproject" class="btn_style_a">Donar</a></h4>
+            <h4 class="msg">Estas jugando al ahorcado! Apoya el desarrollo</h4>
+            <a href="https://link.mercadopago.com.ar/jarsoftproject" class="btn_style_a">Donar</a>
             <a href="./index-old.html" class="advertise">Version anterior</a>
         </div>
         <div id="main">
@@ -38,8 +45,10 @@
                 <textarea name="" id="inputText" cols="30" rows="10" placeholder="Escriba su texto y pulse encriptar"></textarea>
                 <textarea name="" id="outputText" cols="30" rows="10" placeholder="Escriba el texto para desencriptar"></textarea>
             </div>
-            <button class="run_btn" id="run_btn" onclick="runProgram()">Encriptar</button>
-            <button class="run_btn" id="toClipboard" onclick="copyText()">Copiar</button>
+            <div class="btnContainer">
+                <button class="run_btn" id="run_btn" onclick="runProgram()">Encriptar</button>
+                <button class="run_btn" id="toClipboard" onclick="copyText()">Copiar</button>
+            </div>
         </div>
     <script src="./Resources/Code/Ver2.0/kernel.js"></script>
     </body>
@@ -53,8 +62,11 @@
             </div>
             <div class="developer_rights">
                 <p class="dev">JARSoft | SOFT | 2022-2024</p>
-                <p class="dev">Version 2.0.1 (update 14/01/2024)</p>
                 <p class="dev">Contacto: juan.riondini@gmail.com</p>
+            </div>
+            <div class="version">
+                <span class="compilacion" id="updateVer">Corroborando version. Espere...</span>
+                <h6 class="jarsoft">JARSoft</h6>
             </div>
         </section>
     </footer>

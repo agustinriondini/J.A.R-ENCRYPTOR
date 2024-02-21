@@ -2,7 +2,7 @@
 .msg_container{
     width: 100%;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 600px;
     height: auto;
     min-height: 70px;
     display: flex;
@@ -11,13 +11,13 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .msg{
-    color: black;
-    font-size: 1.2rem;
-    display: inline-flex;
-    justify-content: space-evenly;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
     margin: auto;
 }
 .msg>a{
@@ -29,27 +29,30 @@
 }
 .advertise{
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-weight: bolder;
     margin: auto;
 }
 .advertise:hover{
-    text-decoration: underline solid 0.2rem;
-    transition:ease-in-out 1s;
+    transition:ease-in-out 0.5s;
+    color: violet;
 }
+/*boton donacion solamente*/
 .btn_style_a{
     width: auto;
     min-width: 70px;
     max-width: 140px;
-    height: auto;
-    min-height: 30px;
-    max-height: 60px;
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     cursor: pointer;
-    padding: 1%;
     background-color: rgba(183, 56, 242, 0.5);
     color: white;
     font-size: 0.9rem;
     border: solid 0.1rem white;
+    text-decoration: none;
     border-radius: 12.5px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 
