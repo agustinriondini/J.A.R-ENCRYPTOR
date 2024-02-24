@@ -1,12 +1,11 @@
 #main{
-    width: 100%;
+    width: 100lvw;
     min-width: 300px;
     max-width: 600px;
-    height: 100%;
+    height: 100lvh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -45,6 +44,8 @@
     width: 90%;
     min-width: 270px;
     max-width: 900px;
+    aspect-ratio: 1/1.5;
+    max-height: 800px;
     display: block;
     backface-visibility: hidden;
     resize: none;
@@ -80,11 +81,22 @@
 .btnContainer{
     width: 100%;
     min-width: 300px;
-    max-width: 100px;
+    max-width: 400px;
     margin: 0.5rem auto;
     height: auto;
-    min-height: fit-content;
+    min-height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+}
+@media (max-height: 1000px) {
+    #main{
+        height: auto;
+        justify-content: space-evenly;
+    }
+    #inputText, #outputText{
+        aspect-ratio: 2/1;
+        max-height: 300px;
+    }
 }

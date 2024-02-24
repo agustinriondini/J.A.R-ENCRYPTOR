@@ -4,7 +4,7 @@
     min-width: 300px;
     max-width: 600px;
     height: auto;
-    min-height: 70px;
+    min-height: 6rem;
     display: flex;
     align-items: center;
     margin: auto;
@@ -18,7 +18,7 @@
     font-size: 1rem;
     display: flex;
     justify-content: space-around;
-    margin: auto;
+    margin: 0.5rem auto;
 }
 .msg>a{
     text-decoration: none;

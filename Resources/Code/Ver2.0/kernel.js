@@ -36,3 +36,13 @@ function copyText() {
         toClipboard.textContent = 'Copiar';
         }, 2000);
 }
+function wipeData(){
+    var textContent = document.getElementById("inputText");
+    var resetButton = document.getElementById("reset_btn");
+    
+    textContent.value = "";
+    resetButton.innerText = "Listo!";
+    setTimeout(function(){
+        resetButton.innerText = "Borrar";
+    }, 500);
+}
